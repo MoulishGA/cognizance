@@ -1,0 +1,14 @@
+Function Main
+    Declare Integer x, invalue
+    Declare Real y
+    
+    Output "ENTER THE NUMBER"
+    Input invalue
+    Assign y = invalue/3
+    Assign x = invalue/3
+    If x==y
+        Output TRUE
+    False:
+        Output FALSE
+    End
+End

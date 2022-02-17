@@ -1,0 +1,17 @@
+Function Main
+    Declare Integer x, y, z, i, invalue
+    
+    Assign x = 0
+    Assign y = 1
+    Assign z = 1
+    Output "ENTER THE NUMBER"
+    Input invalue
+    For i = 1 to 45
+        If i==invalue
+            Output z
+        End
+        Assign z = x+y
+        Assign x = y
+        Assign y = z
+    End
+End
