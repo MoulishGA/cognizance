@@ -1,0 +1,4 @@
+print("THIS IS TO DISPLAY THE EVEN NUMBER TERMS OF A STRING;")
+str = input("ENTER THE WORDS FOR THIS STRING: \n")
+A = str[::2]
+print(A)
